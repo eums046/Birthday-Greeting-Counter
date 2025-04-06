@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/bday.avif');
+    font-family: 'dynapuff', 'serif';
+    color: #ffff04;
+}
+
+.title {
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#greeters {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 50px;
+}
+
+button {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 250px;
+    font-family: 'dynapuff', 'serif';
+    border-radius: 5px;
+    border: none;
+}
+
+#greetingAdd {
+    background-color: darkgreen;
+    color: #fff;
+}
+
+#greetingSubtract {
+    background-color: darkred;
+    color: #fff;
+}
+
+#save {
+    background-color: darkblue;
+    color: #fff;
+}
+
+p {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
