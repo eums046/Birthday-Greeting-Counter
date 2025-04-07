@@ -18,5 +18,6 @@ function subtractGreetings(){
 function saveGreetings(){
     saved = count  + " - ";
     total.textContent += saved;
-    greeters.textContent = 0;
+    count = 0;
+    greeters.textContent = count;
 }
